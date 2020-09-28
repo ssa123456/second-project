@@ -1,0 +1,50 @@
+footer>div {
+  height:100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  background-color: #ccc;
+}
+
+footer>div>div:first-of-type {
+  width:250px;
+  height:43px;
+  background-image: url("../images/ico_service.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  text-align: center;
+  line-height: 40px;
+
+}
+
+footer>div>div:nth-of-type(2) {
+  width:250px;
+  height:43px;
+  background-image: url("../images/ico_service.png");
+  background-repeat: no-repeat;
+  background-position: 0px -43px;
+  text-align: center;
+  line-height: 40px;
+
+}
+
+footer>div>div:nth-of-type(3) {
+  width:250px;
+  height:43px;
+  background-image: url("../images/ico_service.png");
+  background-repeat: no-repeat;
+  background-position: 0px -86px;
+  text-align: center;
+  line-height: 40px;
+}
+
+footer>div>div:nth-of-type(4) {
+  width:250px;
+  height:43px;
+  background-image: url("../images/ico_service.png");
+  background-repeat: no-repeat;
+  background-position: 0px -129px;
+  text-align: center;
+  line-height: 40px;
+}

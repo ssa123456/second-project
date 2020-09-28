@@ -1,0 +1,111 @@
+article{
+  width:900px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+}
+.boxone{
+  display: grid;
+  grid-template-columns: 80px 450px 80px;
+  grid-template-rows: 30px 120px;
+  background-color:rgb(243, 243, 243);
+}
+.boxone>span{
+  font-size: 13px;
+  text-align: right;
+  padding-right:5px ;
+}
+.boxone span{
+  font-size: 13px;
+}
+.boxone>div:first-of-type>span:nth-of-type(4){
+    text-decoration: line-through;
+}
+.boxone>div:first-of-type>span:nth-of-type(6){
+    color:blue;
+}
+.boxone>div:nth-of-type(2)>span:first-of-type{
+  font-size: 14px;
+}
+.boxone>div:nth-of-type(2)>span:last-of-type{
+  color:rgb(39, 142, 226)
+}
+.boxone>div:nth-of-type(3)>span:first-of-type{
+  font-size: 14px;
+  color:red;
+  border: solid 1px red;
+}
+.boxone>div:nth-of-type(3)>span:nth-of-type(4){
+  font-size: 14px;
+  color:red;
+  border: solid 1px red;
+}
+.boxone>div:nth-of-type(3){
+  line-height: 28px;
+}
+.boxtwo{
+  display: grid;
+  grid-template-columns: 80px 420px;
+  grid-template-rows: repeat(5,45px);
+}
+.boxtwo>span{
+  font-size: 13px;
+  text-align: center;
+}
+.boxtwo>div:first-of-type{
+  color:red
+}
+.boxtwo>div:nth-of-type(2) span{
+  font-size: 13px;
+}
+.boxtwo>div:nth-of-type(2) span:nth-of-type(2){
+  font-size: 14px;
+  color:blue;
+}
+.boxtwo>div:nth-of-type(2) span:nth-of-type(4){
+  color:red;
+}
+.boxtwo>div:nth-of-type(3) span{
+  font-size: 13px;
+}
+.boxtwo>span:nth-of-type(5){
+  text-align: left;
+}
+.boxtwo>div:last-of-type{
+  font-size: 13px;
+}
+.boxtwo>div:last-of-type i{
+  font-size: 20px;
+  color: red;
+}
+.boxtwo>div:last-of-type span:first-of-type{
+  font-size: 18px;
+  color: red;
+}
+.boxtwo>div:last-of-type span:nth-of-type(2){
+  font-size: 14px;
+  color:blue;
+}
+.boxtwo>div:last-of-type span:nth-of-type(4){
+  font-size: 14px;
+  color:blue;
+}
+.boxtwo>div:last-of-type span:nth-of-type(6){
+  font-size: 14px;
+  color:blue;
+}
+.right>input:last-of-type{
+  color:white;
+  background-color: red;
+  border: 0;
+  width: 120px;
+  height:30px;
+  font-size: 18px;
+}
+#price{
+  font-size: 20px;
+  color: red;
+}
+#img{
+  width:200px; 
+}
